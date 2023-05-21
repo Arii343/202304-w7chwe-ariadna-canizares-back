@@ -36,10 +36,10 @@ const mockUser: UserCredentials = {
 const mockUserHashed: UserCredentialsHashed = {
   name: "Bernat",
   username: "Pinxi",
-  password: "$2a$12$3sy8a.A4V./fnCyhO4qCc.CGKS4aGynJH23ItGzt1yVf7kXxjGoNK",
+  password: "$2y$10$b3yaTVGuoxDw3HpG4S5X3e.eGFLG0dxN3VWFEvW8t2Ir0h7xsVOzy",
 };
 
-describe("Given a POST 'users/login' endpoint", () => {
+describe("Given a POST 'user/login' endpoint", () => {
   describe("When it receives a request with a username 'Pinxi' and a password 'pinxeta123'", () => {
     let newUser: UserDataBase;
 
